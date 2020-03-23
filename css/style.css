@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+body {
+  font-family: Lato;
+  background-color: #f2f2f2;
+}
+
+/* ========================================
+    header
+========================================= */
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+}
+
+.header-inner {
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  color: #4e4e4e;
+}
+
+a.btn{
+  font-size: 12px;
+  padding: 14px 12px;
+  color: #fff;
+  background-color: #74cfae;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* ========================================
+    main
+========================================= */
+
+.main-inner {
+  padding: 320px 0 250px 0;
+  text-align: center;
+  padding-top: 50px; 
+}
+
+.is-title {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+}
+
+.sub-title {
+  color: #c0c0c0;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+/* ========================================
+   section
+========================================= */
+.section {
+  background-color: #74cfae;
+}
+
+.section-inner {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.text-title {
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+.text-wrap {
+  color: #fff;
+
+}
+.text-title {
+  font-size: 24px;
+}
+
+
