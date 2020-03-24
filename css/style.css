@@ -16,6 +16,10 @@ body {
   clear: both;
 }
 
+.font-raleway {
+  font-family: Raleway;
+}
+
 /* ========================================
     header
 ========================================= */
@@ -55,8 +59,11 @@ body {
 /* ========================================
     main
 ========================================= */
+.content-ma {
+  padding-top: 70px;
+}
 .theme {
-  padding: 320px 0 250px 0;
+  padding: 250px 0;
 }
 .theme-inner {
   text-align: center;
@@ -77,7 +84,7 @@ body {
 /* ========================================
    section
 ========================================= */
-.section {
+.content-se {
   background-color: #74cfae;
   width: 100%;
   padding-top: 50px;
@@ -95,38 +102,40 @@ body {
 }
 
 .what-title {
-  font-family: Raleway;
   font-size: 24px;
-  margin-bottom: 35px;
 }
 
 .is-text {
   font-size: 20px;
+  margin-top: 35px;
 }
 
 /* ========================================
    article
 ========================================= */
-.article {
+.content-art {
   padding: 60px 0 70px 0;
 }
 
 .our-title {
-  font-family: Raleway;
   font-weight: lighter;
   font-size: 24px;
-  margin-bottom: 40px;
   text-align: center;
 }
-
+.img-wrap {
+  margin-top: 40px; 
+}
 .is-img {
   display: block;
   float: left;
-  margin-right: 100px;
-  margin-bottom: 80px;
+  margin-left: 100px;
+  margin-top: 80px;
   opacity: 0.7;
   z-index: 1;
   transition: all 0.2s;
+}
+.is-img:nth-child(3n+1) {
+  margin-left: 0;
 }
  /*       hover         */
 .is-img:hover {
@@ -134,9 +143,6 @@ body {
   opacity: 1;
 }
  /*       hover         */
-.is-img:nth-child(3n) {
-  margin-right: 0;
-}
 
 .our-wrap {
   display: table;
@@ -169,7 +175,6 @@ body {
 }
 
 .fig-title {
-  font-family: Raleway;
   font-weight: lighter;
   font-size: 24px;
   text-align: center;
@@ -194,7 +199,7 @@ body {
 /* ========================================
    nav
 ========================================= */
-.nav {
+.global-nav {
   padding: 200px 0;
 }
 
