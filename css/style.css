@@ -110,6 +110,10 @@ body {
   margin-top: 35px;
 }
 
+img {
+  vertical-align: bottom;
+}
+
 /* ========================================
    article
 ========================================= */
@@ -122,9 +126,11 @@ body {
   font-size: 24px;
   text-align: center;
 }
+
 .img-wrap {
   margin-top: 40px; 
 }
+
 .is-img {
   display: block;
   float: left;
@@ -134,9 +140,15 @@ body {
   z-index: 1;
   transition: all 0.2s;
 }
+
 .is-img:nth-child(3n+1) {
   margin-left: 0;
 }
+
+.is-img:nth-child(-n+3) {
+  margin-top: 0;
+}
+
  /*       hover         */
 .is-img:hover {
   transition: all 0.3s;
@@ -145,19 +157,21 @@ body {
  /*       hover         */
 
 .our-wrap {
-  display: table;
+  display: flex;
   width: 900px;
-
+  margin-top: 90px;
 }
+
 .our-text {
-  box-sizing: border-box;
-  padding: 10px 90px 70px 0;
-  display: table-cell;
   font-size: 20px;
   font-weight: lighter;
   line-height: 30px;
   text-align: center;
   padding-left: 150px;
+}
+
+.email-me {
+  margin-left: 90px;
 }
 
 .mail-btn {
@@ -178,9 +192,11 @@ body {
   font-weight: lighter;
   font-size: 24px;
   text-align: center;
-  margin-bottom: 50px;
 }
 
+.list-img {
+  margin-top: 50px;
+}
 .fig-box {
   display: inline-block;
   text-align: center;
@@ -212,7 +228,6 @@ body {
   float: left;
   width: 185px;
   text-align: center;
-  color: #74cfae;
   padding: 30px 0;
   transition: all 0.2s;
 }
@@ -222,6 +237,10 @@ body {
   background-color: #fff;
 }
  /*       hover         */
+
+ .a-icon {
+  color: #74cfae;
+ }
 
 
 /* ========================================
@@ -234,5 +253,5 @@ body {
 }
 
 .foot-text {
-  text-align: center;
+  text-align: right;
 }
