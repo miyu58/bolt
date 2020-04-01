@@ -355,9 +355,10 @@ img {
 } 
     /*    media_sp    */
 @media screen and (max-width: 767px) {
+  
   .inner {
-    margin: 0 4%;
-    width: 84%;
+    width: 97%;
+    margin: 0 auto;
   }
   
   .btn {
@@ -365,21 +366,17 @@ img {
   }
 
   .ham-icon {
-    position: relative;
-    left: 43%;
-  }
-
-  .ham-check {
-    display: none;
+    display: flex;
   }
 
   .ham-open {
-    display: inline-block;
+    /* display: inline-block; */
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 10px;
     width: 80%;
     height: 40%;
+    position: relative;
   }
 
   .ham-line, .ham-line::before, .ham-line::after {
@@ -387,21 +384,21 @@ img {
     box-sizing: border-box;
     border-bottom: 3px solid #ddd;
     width: 20px;
-    top: 30%;
+    top: 20%;
     left: 44%;
     display: block;
     content: "";
   }
 
   .ham-line::before {
-    bottom: -10px;
+    bottom: -11px;
     left: 0;
   }
 
   .ham-line::after {
-    bottom: -17px;
+    bottom: -19px;
     left: 0;
-    
+
   }
 
   .theme {
