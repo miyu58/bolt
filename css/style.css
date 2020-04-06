@@ -301,7 +301,7 @@ img {
     margin-top: 20px;
   }
 
-  .is-img{
+  .li-img{
     width: 300px;
     height: 300px;
     float: none;
@@ -309,7 +309,7 @@ img {
     margin: 0 auto;
   }
 
-  .is-img:nth-child(3n+1) {
+  .li-img:nth-child(3n+1) {
     margin: 0 auto;
   }
   .li-img:nth-child(3n) {
