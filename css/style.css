@@ -42,10 +42,6 @@ body {
   color: #4e4e4e;
 }
 
-.ham-check {
-  display: none;
-}
-
 .btn {
   font-size: 12px;
   padding: 14px 12px;
@@ -355,37 +351,35 @@ img {
 } 
     /*    media_sp    */
 @media screen and (max-width: 767px) {
-  
+  .header {
+    padding: 15px 0;
+  }
   .inner {
     width: 97%;
     margin: 0 auto;
   }
   
-  .btn {
+  .btn-wrap {
     display: none;
   }
 
   .ham-icon {
-    display: flex;
-  }
-
-  .ham-open {
-    /* display: inline-block; */
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 10px;
-    width: 80%;
-    height: 40%;
+    width: 30px;
+    height: 18px;
     position: relative;
   }
+
 
   .ham-line, .ham-line::before, .ham-line::after {
     position: absolute;
     box-sizing: border-box;
     border-bottom: 3px solid #ddd;
     width: 20px;
-    top: 20%;
-    left: 44%;
+    top: 23%;
+    left: 30%;
     display: block;
     content: "";
   }
