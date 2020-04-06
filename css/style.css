@@ -138,6 +138,9 @@ img {
   margin-top: 40px; 
 }
 
+.is-img {
+  display: inline-block;
+}
 .li-img {
   display: block;
   float: left;
