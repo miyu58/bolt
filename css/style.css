@@ -20,7 +20,7 @@ body {
   font-family: Raleway;
 }
 
-.a-inline {
+a {
   display: inline-block;
 }
 
